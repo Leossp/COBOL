@@ -1,5 +1,0 @@
-       01 FD-EVSA0407.
-          05 FD-CHAVE.
-             10 FD-AGENCIA                  PIC X(04).
-             10 FD-CONTA                    PIC X(05).
-          05 FD-SALARIO                     PIC X(10).
