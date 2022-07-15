@@ -1,0 +1,8 @@
+//FOUR015X JOB 'COMP CO',MSGCLASS=X,CLASS=C,NOTIFY=&SYSUID,TIME=(0,01)  00010000
+//EXECUTAR EXEC PGM=MD021504                                            00020000
+//STEPLIB  DD   DSN=GR.GERAL.LOADLIB,DISP=SHR                           00030000
+//EVSA0407 DD   DSN=GR.FOUR015.EVSA0407,DISP=SHR                        00040000
+//MOV1207  DD   DSN=GR.FOUR015.MOV1207,DISP=SHR                         00050000
+//*EXC1207  DD   SYSOUT=*                                               00060002
+//EXC1207  DD   DSN=GR.FOUR015.EXCSAIDA(+1),DISP=(NEW,CATLG,DELETE),    00070002
+//         LIKE=GR.FOUR015.MOV1207                                      00080002
